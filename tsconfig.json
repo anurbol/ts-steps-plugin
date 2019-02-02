@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "es7"
+    ],
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "noErrorTruncation": true
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "ts-steps-plugin",
+  "version": "0.0.1",
+  "description": "???",
+  "scripts": {
+    "lint": "tslint --project . --fix",
+    "prepublishOnly": "agadoo",
+    "test": "npm run lint && npm run test-bare",
+    "test-nolint": "tsc && mocha --recursive --bail",
+    "test-debug": "tsc && mocha --recursive --inspect",
+    "watch": "tsc -watch -p ./"
+  },
+  "author": "Nurbol Alpysbayev",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/???/???"
+  },
+  "devDependencies": {
+    "@types/chai": "latest",
+    "@types/mocha": "latest",
+    "@types/node": "latest",
+    "agadoo": "latest",
+    "chai": "latest",
+    "mocha": "latest",
+    "tslint": "latest",
+    "typescript": "latest"
+  },
+  "dependencies": {}
+}
