@@ -1,5 +1,5 @@
 {
-  "name": "ts-steps-plugin",
+  "name": "@qur-cellar/ts-steps-plugin",
   "version": "0.0.1",
   "description": "???",
   "scripts": {
